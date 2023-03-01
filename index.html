@@ -34,17 +34,19 @@
 
                 <ul class="navbar-nav flex-row gap-3">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-list-ul d-none d-lg-inline-block"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><i
-                                class="fa-solid fa-circle-question"></i></a>
+                                class="fa-solid fa-circle-question d-none d-lg-inline-block"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><i
-                                class="fa-solid fa-ellipsis-vertical"></i></a>
+                                class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block"></i></a>
                     </li>
                 </ul>
+
                 <div class="dropdown">
                     <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell"></i>
@@ -59,6 +61,7 @@
                 </div>
 
             </div>
+            <!-- /.container fluid -->
         </nav>
 
     </header>
@@ -68,12 +71,35 @@
         <aside></aside>
         <!-- /aside -->
 
-        <div class="main_center debug">
+        <div class="main_center">
 
-            <div class="main_top bg-primary debug">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia ipsam, asperiores amet
-                consequuntur atque, laborum recusandae, tenetur esse quasi aliquam perferendis quisquam. Officiis, est
-                dolores. Reiciendis quidem distinctio itaque!
+            <div class="main_top text-white">
+                <div class="container py-3">
+                    <div class="row">
+
+                        <div class="col12 col-md-4 col-lg-3 order-md-3">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <span class="fw-semibold pe-3">Nuovo Studente </span>
+                                <a href="#" class="text-white"><i class="fa-regular fa-square-plus fa-3x"></i></a>
+                            </div>
+                        </div>
+                        <!-- /new students -->
+
+                        <div class="col12 col-md-4 col-lg-6 order-md-1">
+                            <h2 class="">Boolean</h2>
+                        </div>
+                        <!-- /boolean plane -->
+
+                        <div class="col12 col-md-4 col-lg-3 order-md-2">
+                            <p class="fw-semibold">Studenti online negli ultimi 30 minuti</p> <br>
+                            <span class="fs-3 fw-semibold">125</span>
+                        </div>
+                        <!-- /number active students -->
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
             </div>
             <!-- /.main_top -->
 

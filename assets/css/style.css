@@ -1,16 +1,26 @@
+:root {
+    --dash-primary: rgba(27, 114, 232, 1);
+    --dash-secondary: rgba(5, 30, 52, 1);
+    --dash-bell: rgba(255, 143, 0, 1);
+}
+
 nav {
     height: 70px;
 }
 
 .fa-bell {
-    color: orange;
+    color: var(--dash-bell);
 }
 
 aside {
     width: 70px;
     height: calc(100vh - 70px);
     background-image: url(../img/sidebar-bg.png);
-    background-color: rgba(5, 30, 52, 1)
+    background-color: var(--dash-secondary);
+}
+
+.main_top {
+    background-color: var(--dash-primary);
 }
 
 .main_center {
