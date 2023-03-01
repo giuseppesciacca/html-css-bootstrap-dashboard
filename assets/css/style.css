@@ -42,6 +42,9 @@ aside {
     background-color: var(--dash-primary);
 }
 
+.main_content table i {
+    color: var(--dash-dark-grey);
+}
 
 /* #endregion MAIN-CENTER */
 
