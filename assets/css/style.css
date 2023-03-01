@@ -2,16 +2,26 @@
     --dash-primary: rgba(27, 114, 232, 1);
     --dash-secondary: rgba(5, 30, 52, 1);
     --dash-bell: rgba(255, 143, 0, 1);
+    --dash-dark-grey: rgba(91, 88, 88, 1);
 }
+
+/* #region HEADER (nav) */
 
 nav {
     height: 70px;
+}
+
+nav ul i {
+    color: var(--dash-dark-grey);
 }
 
 .fa-bell {
     color: var(--dash-bell);
 }
 
+/* #endregion HEADER (nav) */
+
+/* #region ASIDE */
 aside {
     width: 70px;
     height: calc(100vh - 70px);
@@ -19,15 +29,21 @@ aside {
     background-color: var(--dash-secondary);
 }
 
-.main_top {
-    background-color: var(--dash-primary);
-}
+/* #endregion ASIDE */
 
+/* #region MAIN-CENTER */
 .main_center {
     width: calc(100% - 70px);
     height: calc(100vh - 70px);
     overflow-y: auto;
 }
+
+.main_top {
+    background-color: var(--dash-primary);
+}
+
+
+/* #endregion MAIN-CENTER */
 
 
 /* #region DEBUG */
