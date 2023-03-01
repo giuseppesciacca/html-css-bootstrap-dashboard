@@ -110,7 +110,67 @@
                         <div class="col12 col-md-4 col-lg-2 order-md-3">
                             <div class="d-flex justify-content-start align-items-center">
                                 <span class="fw-semibold pe-3">Nuovo Studente </span>
-                                <a href="#" class="text-white"><i class="fa-regular fa-square-plus fa-3x"></i></a>
+
+                                <button class="btn" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                        class="fa-regular fa-square-plus fa-3x text-white"></i></button>
+                                <!-- button add students -->
+
+                                <div class="canvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="offcanvas-body">
+
+                                        <div class="mb-3">
+                                            <label for="inputname" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="inputname">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="inputlastname" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="inputlastname">
+                                        </div>
+
+                                        <label for="inputlastname" class="form-label">Email</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="text" class="form-control" aria-label="Username"
+                                                aria-describedby="basic-addon1">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="inputPassword2" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword2"
+                                                placeholder="Password">
+                                        </div>
+
+
+
+
+
+
+
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Example
+                                                textarea</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- /new students -->
@@ -135,7 +195,7 @@
 
             <div class="main_content py-3">
                 <div class="container">
-                    <div class="row">
+                    <div class="row g-4">
 
                         <div class="col-12 col-lg-8">
                             <div class="row g-4">
@@ -345,6 +405,7 @@
                             </div>
                             <!-- nested row -->
                         </div>
+                        <!-- / next classes and faq -->
 
                         <div class="col-12 col-lg-4">
                             <div class="row g-4">
@@ -405,6 +466,8 @@
                                 <!-- /graph -->
                             </div>
                         </div>
+                        <!-- / todo and stats -->
+
                     </div>
                     <!-- /.row -->
                 </div>
