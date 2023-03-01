@@ -32,18 +32,17 @@
                         aria-label="Search">
                 </form>
 
-                <ul class="navbar-nav flex-row gap-3">
+                <ul class="navbar-nav flex-row gap-3 d-none d-lg-flex">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i
-                                class="fa-solid fa-list-ul d-none d-lg-inline-block"></i></a>
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><i
-                                class="fa-solid fa-circle-question d-none d-lg-inline-block"></i></a>
+                                class="fa-solid fa-circle-question"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><i
-                                class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block"></i></a>
+                                class="fa-solid fa-ellipsis-vertical"></i></a>
                     </li>
                 </ul>
 
@@ -70,6 +69,7 @@
     <main id="app_main" class="d-flex">
 
         <aside class="d-flex flex-column justify-content-between align-items-center">
+
             <ul class="nav flex-column py-3">
 
                 <li class="nav-item align-items-center">
@@ -133,33 +133,152 @@
             </div>
             <!-- /.main_top -->
 
-            <div class="main_content debug">
+            <div class="main_content py-3">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-12 col-lg-8">
 
-                            <div class="col-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-                                explicabo magni cum provident et sequi quasi, cupiditate sunt dolorum non alias eius
-                                odit ex, voluptates ratione? Reiciendis dolorum voluptas quibusdam!</div>
+                            <div class="col-12">
+                                <div class="card">
+                                    <h5 class="card-header fw-semibold">Prossime classi</h5>
+                                    <div class="card-body">
+
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col" class="d-none d-md-inline-block">Data inizio</td>
+                                                    <td scope="col" class="d-none d-md-inline-block">ROI</td>
+                                                    <td scope="col">Stato</td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Classe 82</td>
+                                                    <td class="d-none d-md-inline-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-inline-block">20%</td>
+                                                    <td>Done</td>
+                                                    <td>icon icon</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+
+                            </div>
                             <!-- /next classes -->
 
-                            <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae saepe
-                                facilis sequi expedita optio nulla itaque excepturi voluptatem, explicabo qui dicta,
-                                voluptatum accusamus non! Iusto in possimus numquam reiciendis assumenda!</div>
+                            <div class="col-12">
+
+
+                                <div class="card">
+                                    <h5 class="card-header">Featured</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- /faq -->
                         </div>
 
                         <div class="col-12 col-lg-4">
 
-                            <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                                laudantium aliquam omnis neque similique veniam beatae. Accusantium delectus sed ullam.
-                                Provident ab nisi quisquam, fugiat consequuntur nemo excepturi pariatur sint.</div>
+                            <div class="col-12">
+
+                                <div class="card">
+                                    <h5 class="card-header">Featured</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- /todo -->
 
-                            <div class="col-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam illum
-                                ipsa, doloribus nulla laborum voluptatem quod corrupti. Officia, deleniti corporis culpa
-                                fuga laboriosam recusandae molestiae eaque quam expedita, consequatur non.</div>
+                            <div class="col-12">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="#" class="card-link">Card link</a>
+                                        <a href="#" class="card-link">Another link</a>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- /graph -->
                         </div>
                     </div>
