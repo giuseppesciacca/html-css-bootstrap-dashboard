@@ -1,0 +1,25 @@
+#app_header {
+    height: 70px;
+}
+
+aside {
+    width: 70px;
+    height: calc(100vh - 70px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: rgba(5, 30, 52, 1)
+}
+
+.main_center {
+    width: calc(100% - 70px);
+    height: calc(100vh - 70px);
+}
+
+
+/* #region DEBUG */
+.debug #app_main .main_center {
+    background-color: blue;
+}
+
+.debug * {
+    border: 1px dashed black;
+}
