@@ -12,14 +12,19 @@ aside {
 .main_center {
     width: calc(100% - 70px);
     height: calc(100vh - 70px);
+    overflow-y: auto;
 }
 
 
 /* #region DEBUG */
 .debug #app_main .main_center {
-    background-color: blue;
+    background-color: yellowgreen;
 }
 
 .debug * {
-    border: 1px dashed black;
+    border: 1px dashed wheat;
+}
+
+.debug .main_content>div {
+    background-color: red;
 }
