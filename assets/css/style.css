@@ -1,5 +1,9 @@
-#app_header {
+nav {
     height: 70px;
+}
+
+.fa-bell {
+    color: orange;
 }
 
 aside {
@@ -28,3 +32,21 @@ aside {
 .debug .main_content>div {
     background-color: red;
 }
+
+/* #endregion DEBUG */
+
+
+/* #region MEDIA SCREEN */
+
+/* lg screen */
+@media screen and (min-width: 991.98px) {
+    aside {
+        width: 150px;
+    }
+
+    .main_center {
+        width: calc(100% - 150px);
+    }
+}
+
+/* #endregion MEDIA SCREEN */
