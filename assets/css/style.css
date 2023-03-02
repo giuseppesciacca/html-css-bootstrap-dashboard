@@ -110,7 +110,7 @@ aside {
     }
 
     .name_table_column {
-        width: 40%;
+        width: 35%;
     }
 }
 
@@ -124,7 +124,7 @@ aside {
 /* xl screen */
 @media screen and (min-width: 1199.98px) {
     .name_table_column {
-        width: 55%;
+        width: 48%;
     }
 }
 
