@@ -53,6 +53,17 @@ aside {
     color: var(--dash-dark-grey);
 }
 
+.main_content table .btn_code {
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    background-color: rgba(242, 101, 81, 1);
+}
+
+.btn_code i {
+    scale: 1.1;
+}
+
 /* #endregion MAIN-CENTER */
 
 
@@ -82,6 +93,17 @@ aside {
 
     .main_center {
         width: calc(100% - 150px);
+    }
+
+    .name_table_column {
+        width: 40%;
+    }
+}
+
+/* xl screen */
+@media screen and (min-width: 1199.98px) {
+    .name_table_column {
+        width: 55%;
     }
 }
 
