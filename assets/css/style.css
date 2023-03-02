@@ -38,6 +38,11 @@ aside {
     background-color: var(--dash-secondary);
 }
 
+aside .nav-item:hover {
+    cursor: pointer;
+    background-color: rgba(250, 250, 250, 0.3);
+}
+
 /* #endregion ASIDE */
 
 /* #region MAIN-CENTER */
@@ -57,6 +62,11 @@ aside {
 
 .main_content {
     background-color: var(--dash-light);
+}
+
+.main_content table tr:hover {
+    background-color: lightgrey;
+    cursor: pointer;
 }
 
 .main_content table img {
