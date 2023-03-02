@@ -60,6 +60,10 @@ aside .nav-item:hover {
     min-width: 100% !important;
 }
 
+.offcanvas-title {
+    padding-left: 0.75rem;
+}
+
 .main_content {
     background-color: var(--dash-light);
 }
