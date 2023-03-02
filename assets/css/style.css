@@ -52,7 +52,7 @@ aside {
 }
 
 .canvas {
-    min-width: 40% !important;
+    min-width: 100% !important;
 }
 
 .main_content {
@@ -99,8 +99,8 @@ aside {
 
 /* #region MEDIA SCREEN */
 
-/* lg screen */
-@media screen and (min-width: 991.98px) {
+/* md screen */
+@media screen and (min-width: 767.98px) {
     aside {
         width: 150px;
     }
@@ -111,6 +111,13 @@ aside {
 
     .name_table_column {
         width: 40%;
+    }
+}
+
+/* lg screen */
+@media screen and (min-width: 991.98px) {
+    .canvas {
+        min-width: 50% !important;
     }
 }
 
