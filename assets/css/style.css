@@ -1,9 +1,12 @@
+/* #region COMMON and Utilities */
 :root {
     --dash-primary: rgba(27, 114, 232, 1);
     --dash-secondary: rgba(5, 30, 52, 1);
     --dash-bell: rgba(255, 143, 0, 1);
     --dash-dark-grey: rgba(91, 88, 88, 1);
 }
+
+/* #endregion COMMON and Utilities */
 
 /* #region HEADER (nav) */
 
@@ -43,7 +46,7 @@ aside {
 }
 
 .canvas {
-    min-width: 45% !important;
+    min-width: 40% !important;
 }
 
 .main_content table i {
@@ -79,6 +82,13 @@ aside {
 
     .main_center {
         width: calc(100% - 150px);
+    }
+}
+
+/* xxl screen */
+@media screen and (min-width: 1399.98px) {
+    .canvas {
+        min-width: 50% !important;
     }
 }
 
