@@ -4,6 +4,7 @@
     --dash-secondary: rgba(5, 30, 52, 1);
     --dash-bell: rgba(255, 143, 0, 1);
     --dash-dark-grey: rgba(91, 88, 88, 1);
+    --dash-light: rgba(248, 249, 250, 1);
 }
 
 /* #endregion COMMON and Utilities */
@@ -47,6 +48,10 @@ aside {
 
 .canvas {
     min-width: 40% !important;
+}
+
+.main_content {
+    background-color: var(--dash-light);
 }
 
 .main_content table i {
