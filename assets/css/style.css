@@ -54,6 +54,10 @@ aside {
     background-color: var(--dash-light);
 }
 
+.main_content table img {
+    width: 40px;
+}
+
 .main_content table i {
     color: var(--dash-dark-grey);
 }
