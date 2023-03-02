@@ -127,50 +127,112 @@
                                     </div>
 
                                     <div class="offcanvas-body">
+                                        <div class="container-fluid">
 
-                                        <div class="mb-3">
-                                            <label for="inputname" class="form-label">Nome</label>
-                                            <input type="text" class="form-control" id="inputname">
-                                        </div>
+                                            <div class="row needs-validation" novalidate>
 
-                                        <div class="mb-3">
-                                            <label for="inputlastname" class="form-label">Cognome</label>
-                                            <input type="text" class="form-control" id="inputlastname">
-                                        </div>
-
-                                        <label for="inputlastname" class="form-label">Email</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text" id="basic-addon1">@</span>
-                                            <input type="text" class="form-control" aria-label="Username"
-                                                aria-describedby="basic-addon1">
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <label for="inputPassword2" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="inputPassword2"
-                                                placeholder="Password">
-                                        </div>
-
-
-
-
-
-
-
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">Email
-                                                address</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="name@example.com">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlTextarea1" class="form-label">Example
-                                                textarea</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                rows="3"></textarea>
+                                                <div class="col-6">
+                                                    <div class="mb-3">
+                                                        <label for="inputname" class="form-label">Nome</label>
+                                                        <input type="text" class="form-control" id="inputname" required>
+                                                    </div>
+                                                </div>
+                                                <!-- /name -->
+                                                <div class="col-6">
+                                                    <div class="mb-3">
+                                                        <label for="inputlastname" class="form-label">Cognome</label>
+                                                        <input type="text" class="form-control" id="inputlastname"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                                <!-- /lastmame -->
+                                                <div class="col-6">
+                                                    <label for="inputlastname" class="form-label">Email</label>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" aria-label="Username"
+                                                            aria-describedby="basic-addon1" required>
+                                                    </div>
+                                                </div>
+                                                <!-- /email -->
+                                                <div class="col-6">
+                                                    <div class="mb-3">
+                                                        <label for="inputPassword2" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="inputPassword2"
+                                                            placeholder="Password" required>
+                                                    </div>
+                                                </div>
+                                                <!-- /password -->
+                                                <div class="col-12">
+                                                    <div class="mb-3">
+                                                        <label for="inputaddress" class="form-label">Indirizzo</label>
+                                                        <input type="text" class="form-control" id="inputaddress"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                                <!-- /indirizzo -->
+                                                <div class="col-6">
+                                                    <div class="mb-3">
+                                                        <label for="inputcity" class="form-label">Città</label>
+                                                        <input type="text" class="form-control" id="inputcity" required>
+                                                    </div>
+                                                </div>
+                                                <!-- /città -->
+                                                <div class="col-4">
+                                                    <div class="mb-3">
+                                                        <label for="inputState" class="form-label">Stato</label>
+                                                        <select id="inputState" class="form-select" required>
+                                                            <option selected>Scegli...</option>
+                                                            <option value="1">Italia</option>
+                                                            <option value="2">Inghilterra</option>
+                                                            <option value="3">Spagna</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- /stato -->
+                                                <div class="col-2">
+                                                    <div class="mb-3">
+                                                        <label for="inputcap" class="form-label">CAP</label>
+                                                        <input type="text" class="form-control" id="inputcap" required>
+                                                    </div>
+                                                </div>
+                                                <!-- /CAP -->
+                                                <div class="col-12">
+                                                    <div class="mb-3">
+                                                        <label for="inputfoto" class="form-label">Foto</label>
+                                                        <input type="file" class="form-control"
+                                                            aria-label="file example" required>
+                                                    </div>
+                                                </div>
+                                                <!-- /foto -->
+                                                <div class="col-12">
+                                                    <div class="form-check mb-3">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="invalidCheck" required>
+                                                        <label class="form-check-label" for="invalidCheck">
+                                                            Seleziona per proseguire
+                                                        </label>
+                                                        <div class="invalid-feedback">
+                                                            Devi prima selezionare per poter proseguire
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /seleziona per proseguire -->
+                                                <div class="mb-3 d-inline-block w-auto">
+                                                    <button class="btn btn-primary" type="submit">Salva</button>
+                                                </div>
+                                                <!-- /submit -->
+                                                <div class="mb-3 d-inline-block w-auto">
+                                                    <button class="btn btn-warning" type="reset">Svuota</button>
+                                                </div>
+                                                <!-- /reset -->
+                                            </div>
+                                            <!-- /form -->
                                         </div>
                                     </div>
+                                    <!-- /off-canvas body -->
                                 </div>
+                                <!-- /off-canvas -->
                             </div>
                         </div>
                         <!-- /new students -->
