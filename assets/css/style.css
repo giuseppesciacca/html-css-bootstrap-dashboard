@@ -78,7 +78,7 @@ aside .nav-item:hover {
 }
 
 .main_center table img {
-    width: 40px;
+    width: 40px !important;
 }
 
 .main_center table i {
