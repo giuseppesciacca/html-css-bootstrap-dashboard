@@ -5,11 +5,16 @@
     --dash-bell: rgba(255, 143, 0, 1);
     --dash-dark-grey: rgba(91, 88, 88, 1);
     --dash-light: rgba(248, 249, 250, 1);
+    --dash-dark-blue-btn: rgba(22, 91, 186, 1);
 }
 
 /* #endregion COMMON and Utilities */
 
 /* #region HEADER (nav) */
+
+.bg_darkblue_btn {
+    background-color: var(--dash-dark-blue-btn);
+}
 
 nav {
     height: 70px;
