@@ -11,7 +11,6 @@
 /* #endregion COMMON and Utilities */
 
 /* #region HEADER (nav) */
-
 .bg_darkblue_btn {
     background-color: var(--dash-dark-blue-btn);
 }
@@ -72,13 +71,13 @@ aside .nav-item:hover {
     margin: 0.2rem 0;
 }
 
-.main_center table tr:hover {
+.main_center table tbody tr:hover {
     background-color: lightgrey;
     cursor: pointer;
 }
 
 .main_center table img {
-    width: 40px !important;
+    width: 40px;
 }
 
 .main_center table i {
