@@ -46,7 +46,7 @@ aside .nav-item:hover {
 /* #endregion ASIDE */
 
 /* #region MAIN-CENTER */
-.main_center {
+.app_main {
     width: calc(100% - 70px);
     height: calc(100vh - 70px);
     overflow-y: auto;
@@ -64,24 +64,28 @@ aside .nav-item:hover {
     padding-left: 0.75rem;
 }
 
-.main_content {
+.main_center {
     background-color: var(--dash-light);
 }
 
-.main_content table tr:hover {
+.main_center table .btn {
+    margin: 0.2rem 0;
+}
+
+.main_center table tr:hover {
     background-color: lightgrey;
     cursor: pointer;
 }
 
-.main_content table img {
+.main_center table img {
     width: 40px;
 }
 
-.main_content table i {
+.main_center table i {
     color: var(--dash-dark-grey);
 }
 
-.main_content table .btn_code {
+.main_center table .btn_code {
     border-radius: 50%;
     width: 40px;
     aspect-ratio: 1 / 1;
@@ -96,7 +100,7 @@ aside .nav-item:hover {
 
 
 /* #region DEBUG */
-.debug #app_main .main_center {
+.debug #wrapper .app_main {
     background-color: yellowgreen;
 }
 
@@ -104,7 +108,7 @@ aside .nav-item:hover {
     border: 1px dashed wheat;
 }
 
-.debug .main_content>div {
+.debug .main_center>div {
     background-color: red;
 }
 
@@ -119,7 +123,7 @@ aside .nav-item:hover {
         width: 150px;
     }
 
-    .main_center {
+    .app_main {
         width: calc(100% - 150px);
     }
 

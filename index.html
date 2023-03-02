@@ -68,7 +68,7 @@
     </header>
     <!-- /#app_header -->
 
-    <main id="app_main" class="d-flex">
+    <div id="wrapper" class="d-flex">
 
         <aside class="d-flex flex-column justify-content-between align-items-center">
 
@@ -103,7 +103,7 @@
         </aside>
         <!-- /aside -->
 
-        <div class="main_center">
+        <main class="app_main">
 
             <div class="main_top text-white">
                 <div class="container py-3">
@@ -261,8 +261,12 @@
                         <!-- /boolean plane -->
 
                         <div class="col12 col-md-4 col-lg-4 order-md-2">
-                            <p class="fw-semibold">Studenti online negli ultimi 30 minuti</p> <br>
-                            <span class="fs-3 fw-semibold">125</span>
+                            <div class="col-12">
+                                <p class="fw-semibold">Studenti online negli ultimi 30 minuti</p>
+                            </div>
+                            <div class="col-12">
+                                <span class="fs-3 fw-semibold">125</span>
+                            </div>
                         </div>
                         <!-- /number active students -->
 
@@ -273,7 +277,7 @@
             </div>
             <!-- /.main_top -->
 
-            <div class="main_content py-3">
+            <div class="main_center py-3">
                 <div class="container">
                     <div class="row g-4">
 
@@ -597,12 +601,12 @@
                 </div>
                 <!-- /.container -->
             </div>
-            <!-- /.main_content -->
+            <!-- /.main_center -->
 
-        </div>
-        <!-- /.main_center -->
-    </main>
-    <!-- /#app_main -->
+        </main>
+        <!-- /.app_main -->
+    </div>
+    <!-- /#wrapper -->
 
 
     <!-- JS bootstrap bundle -->
